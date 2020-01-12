@@ -5,7 +5,9 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<% 
+    role.LoginData login = (role.LoginData) session.getAttribute("LoginData");
+%>
 
 <html>
     <head>
