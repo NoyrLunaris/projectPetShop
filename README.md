@@ -1,1 +1,1 @@
-# projectPetShop
+# ProjekPetShop

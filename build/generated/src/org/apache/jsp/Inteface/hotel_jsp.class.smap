@@ -1,0 +1,14 @@
+SMAP
+hotel_jsp.java
+JSP
+*S JSP
+*F
++ 0 hotel.jsp
+Inteface/hotel.jsp
++ 1 Header.jsp
+Inteface/../Tools/Header.jsp
+*L
+5,11:49
+5#1,25:60
+15#0,35:84
+*E

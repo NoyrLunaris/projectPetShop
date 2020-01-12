@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ProsesLogIn</servlet-name>
+        <servlet-class>SourceCode.ProsesLogIn</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProsesLog</servlet-name>
+        <servlet-class>Proses.ProsesLog</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProsesLI</servlet-name>
+        <servlet-class>Proses.ProsesLI</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProsesLogIn</servlet-name>
+        <url-pattern>/ProsesLogIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProsesLog</servlet-name>
+        <url-pattern>/ProsesLog</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProsesLI</servlet-name>
+        <url-pattern>/ProsesLI</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
